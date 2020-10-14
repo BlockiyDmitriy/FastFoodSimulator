@@ -1,0 +1,6 @@
+E:\Git Hub\FastFoodSimulator\FastFoodSimulator\Business_Logic_Layear\bin\Debug\Business_Logic_Layear.dll
+E:\Git Hub\FastFoodSimulator\FastFoodSimulator\Business_Logic_Layear\bin\Debug\Business_Logic_Layear.pdb
+E:\Git Hub\FastFoodSimulator\FastFoodSimulator\Business_Logic_Layear\obj\Debug\Business_Logic_Layear.csprojAssemblyReference.cache
+E:\Git Hub\FastFoodSimulator\FastFoodSimulator\Business_Logic_Layear\obj\Debug\Business_Logic_Layear.csproj.CoreCompileInputs.cache
+E:\Git Hub\FastFoodSimulator\FastFoodSimulator\Business_Logic_Layear\obj\Debug\Business_Logic_Layear.dll
+E:\Git Hub\FastFoodSimulator\FastFoodSimulator\Business_Logic_Layear\obj\Debug\Business_Logic_Layear.pdb
