@@ -45,7 +45,7 @@
     <Compile Include="Customer.cs" />
     <Compile Include="Interface\IObservable.cs" />
     <Compile Include="Interface\IObserver.cs" />
-    <Compile Include="OrderInfo.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="OrderTaker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -7,18 +7,16 @@ using System.Threading.Tasks;
 
 namespace Business_Logic_Layear
 {
-    class Customer : IObserver
+    public class Customer
     {
-        IObservable orderTaker;
-        public Customer(IObservable obs)
+        private string _name;
+        public Customer(String name)
         {
-            orderTaker = obs;
-            orderTaker.RegisterObserver(this);
+            this._name = name;
         }
-        public void Update(object ob)
+        public string getName()
         {
-            OrderInfo otInfo = (OrderInfo)ob;
-
+            return this._name;
         }
     }
 }

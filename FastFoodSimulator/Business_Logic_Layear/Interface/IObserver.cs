@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Business_Logic_Layear.Interface
 {
-    interface IObserver
+    public interface IObserver
     {
-        void Update(Object ob);
+        void Update(List<Order> xWait, List<Order> yWait);
     }
 }
