@@ -44,7 +44,7 @@ namespace Business_Logic_Layear
 
         public void CookOrder(Cook cooker)
         {
-            if (_waitingOrders.Count!=0)
+            if (_waitingOrders.Count != 0)
             {
                 cooker.CookOrder(_waitingOrders[0]);
                 _waitingOrders.RemoveAt(0);

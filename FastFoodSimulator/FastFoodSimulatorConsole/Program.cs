@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 using Business_Logic_Layear;
@@ -23,11 +24,12 @@ namespace FastFoodSimulatorConsole
             Console.WriteLine("Введите время готовки заказов");
             int timeCook = Convert.ToInt32(Console.ReadLine());
 
-            ThreadCustomer t1 = new ThreadCustomer(intervalOrder, orderTaker);
-            ThreadCooker t2 = new ThreadCooker(timeCook, orderTaker, cooker);
+            MainThread mainThread1 = new MainThread(intervalOrder, orderTaker);
+            MainThread mainThread2 = new MainThread(timeCook, orderTaker, cooker);
+            while (true)
+            {
 
-            t1.run();
-            t2.run();
+            }
         }
     }
 }
